@@ -1,10 +1,16 @@
 @import "tailwindcss";
 @layer base {
   h1 {
+    @apply text-4xl md:text-3xl lg:text-4xl xl:text-5xl font-light font-sans;
+  }
+  h2 {
+    @apply text-3xl md:text-2xl lg:text-xl xl:text-4xl font-light font-sans;
+  }
+  h2 {
     @apply text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-light font-sans;
   }
   h4 {
-    @apply font-light font-sans;
+    @apply text-2xl font-light font-sans;
   }
   button {
     @apply border p-2 rounded-lg cursor-pointer transition-all duration-200 hover:shadow hover:scale-105;
